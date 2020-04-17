@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 import ColorfulMsg from "./components/ColorfulMsg";
+import CountButton from "./components/CountButton";
 
 const App = () => {
 	return (
@@ -10,6 +11,7 @@ const App = () => {
 			<ColorfulMsg color="blue">Reactは難しくないぜ</ColorfulMsg>
 			<ColorfulMsg color="green">Vueも難しくないぜ</ColorfulMsg>
 			<ColorfulMsg color="red">Angularは、、、</ColorfulMsg>
+			<CountButton />
 		</>
 	);
 };
