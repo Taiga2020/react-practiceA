@@ -1,13 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import Msg from "./components/Msg";
+import ColorfulMsg from "./components/ColorfulMsg";
 
 const App = () => {
 	return (
 		<>
 			<h2>Reactハンズオン！</h2>
-			<Msg />
+			<ColorfulMsg color="blue">Reactは難しくないぜ</ColorfulMsg>
+			<ColorfulMsg color="green">Vueも難しくないぜ</ColorfulMsg>
+			<ColorfulMsg color="red">Angularは、、、</ColorfulMsg>
 		</>
 	);
 };
